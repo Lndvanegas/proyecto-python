@@ -1,0 +1,78 @@
+{
+    "campers": [
+        {
+            "id": "123",
+            "nombres": "leo",
+            "apellidos": "vane",
+            "direccion": "123456",
+            "acudiente": "no",
+            "telefono_celular": "123456789",
+            "telefono_fijo": "123456789",
+            "estado": "Inscrito",
+            "riesgo": "Bajo"
+        }
+    ],
+    "trainers": [],
+    "rutas": [
+        {
+            "nombre": "Fundamentos",
+            "modulos": [
+                "Python Basico",
+                "Logica"
+            ],
+            "campers": []
+        },
+        {
+            "nombre": "Backend",
+            "modulos": [
+                "Bases de Datos"
+            ],
+            "campers": []
+        },
+        {
+            "nombre": "Frontend",
+            "modulos": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "campers": []
+        }
+    ],
+    "areas": [
+        {
+            "nombre": "Desarrollo Web",
+            "capacidad": 33,
+            "campers": []
+        },
+        {
+            "nombre": "Desarrollo Movil",
+            "capacidad": 33,
+            "campers": []
+        },
+        {
+            "nombre": "Desarrollo de Videojuegos",
+            "capacidad": 33,
+            "campers": []
+        }
+    ],
+    "matriculas": [],
+    "evaluaciones": [],
+    "usuarios": [
+        {
+            "usuario": "coordinador",
+            "clave": "0258",
+            "rol": "coordinador"
+        },
+        {
+            "usuario": "trainer",
+            "clave": "8520",
+            "rol": "trainer"
+        },
+        {
+            "usuario": "camper",
+            "clave": "campus2023",
+            "rol": "camper"
+        }
+    ]
+}

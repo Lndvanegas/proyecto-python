@@ -4,6 +4,7 @@ from rutas import mostrarRutas, asignarRCamper
 from areas import mostrarAreas, asignarCA
 from matriculas import crearMatricula, mostrarMatriculas 
 from evaluaciones import notaExIn, notaModulo, mostrarNotCamp
+from almacenar2 import cargarDatos
 from reportes import (
     campersIncritos, 
     campersAprobados, 
@@ -13,7 +14,7 @@ from reportes import (
     trainerRutaCamper, 
     reporte_modulos_aprobados_perdidos 
 )
-from almacenar import cargarDatos
+#from almacenar import cargarDatos
 
 
 
@@ -245,7 +246,7 @@ def menu_matriculas():
                 crearMatricula(id, ruta, area, id_t, f_inicio, f_fin)
             elif op == "2":
                 print("\n--- LISTA DE MATRICULAS ---")
-                for m in listar_matriculas(): 
+                for m in mostrarMatriculas(): 
                     print(f"Camper: {m['camperId']} | Ruta: {m['ruta']} | Trainer: {m['id_trainer']} | Área: {m['area']} | Inicio: {m['fecha_inicio']}")
             elif op == "0": break
             else: print("opcion invalida.")

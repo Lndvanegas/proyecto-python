@@ -1,0 +1,10 @@
+{
+    "campers": [
+        {
+            "id": "123",
+            "nombres": "leo",
+            "apellidos": "vane",
+            "riesgo": "Bajo"
+        }
+    ]
+}
